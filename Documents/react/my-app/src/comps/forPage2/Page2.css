@@ -1,0 +1,109 @@
+
+
+.page2left{
+  padding-top: var(--headerHeight);
+  width: 51vw;
+  height: 100vh;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    /* background-color: ivory; */
+    justify-content: space-evenly;
+    padding-left: var(--mrg);
+    font-size: 3rem;
+    flex-shrink: 0;
+  }
+
+
+
+  .line{
+    
+    width: 65px;
+    height: 3px;
+    background-color: var(--color );
+    border-radius: 1.5px;
+  }
+  
+  .features{
+    display: flex;
+    flex-wrap: wrap;
+    /* background-color: bisque; */
+  }
+
+  .feature{
+    display: flex;
+    padding-bottom: 3rem;  
+  }
+  .icon{
+    width: 40px;
+    height: 40px;
+    border-radius: 20px;
+    background-color: var(--color);
+  }
+  .info{
+    display: flex;
+    flex-direction: column;
+    margin-left: 2rem;
+  }
+  .info h3{
+    font-size: 2rem;
+    margin-top: .8rem;
+  }
+  .info p{
+    font-size: 1.6rem;
+    width: 265px;   
+    margin-top: 1rem
+  }
+
+  .playStore{
+    margin: 0 auto;
+  }
+
+  .fonImg{
+    height: 70vh;
+    margin: 0 auto;
+  }
+
+  @media only screen and (max-width: 600px){
+    .page2left{
+      width: 50vw;
+      margin-right: 2rem;
+      font-size: 2rem;
+      /* background-color: aquamarine; */
+    }
+    .feature{
+      padding-bottom: 2rem;
+    }
+    .icon{
+      width: 25px;
+      height: 25px;
+      flex-shrink: 0;
+      }
+
+      .info{
+        margin-left: 1rem;
+        /* background-color : brown; */
+      }
+      .info h3{               
+        margin-top: .2rem;
+        font-size: 1.8rem;
+        line-height: 110%;
+      }
+      .info p{
+        width: auto;
+        font-size: 1.4rem;
+        margin-top: 0.5rem;
+      }
+
+      .fonImg{
+        height: 50vh;
+        margin: 0;
+      }
+
+      .playStore{
+        width: 150px;
+        margin-left: calc( 50vw - 106px);
+      }
+  }
+
+  

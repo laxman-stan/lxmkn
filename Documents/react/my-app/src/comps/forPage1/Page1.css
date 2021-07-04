@@ -1,0 +1,27 @@
+
+
+.topbar{
+    padding-left: var(--mrg);
+    display: flex;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: var(--bodyColor);
+    width: 50vw;
+    align-items: center;
+}
+
+#logo{
+    width: 100px;
+    height: var(--headerHeight);
+    background-color: aqua;
+}
+
+.link-button{
+    margin-left: var(--mrg);
+    font-size: var(--link-text);
+}
+
+
+
+

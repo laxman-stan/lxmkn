@@ -1,0 +1,137 @@
+
+
+.product {
+    position: fixed;
+    top: clamp( -154vw, -173vmin, -20px) ;
+    right: clamp( -350vw, -310vmin, -20px);
+    width: clamp( 20px, 450vmin, 500vw );
+    transition: transform 1s;
+    z-index: -1;
+    margin-left: 500px;
+  }
+
+
+.Text-Index{
+    margin-left: var(--mrg);
+    display: flex;
+    height: 100vh;
+    width: 51vw;
+    flex-direction: column;    
+    justify-content: center; 
+    
+}
+
+
+
+.carousel-text{
+    display: flex;    
+    flex-direction: column;
+    /* background-color: bisque;
+    border: 2px solid black; */
+    height: 20rem;
+    align-items: flex-start;
+    justify-content: center;    
+    position: relative; 
+  }
+
+  .question {
+    color: back;
+    font-size: 2rem;
+    
+     
+  }
+  .answer {
+    margin-top: 5px;
+    line-height: 130%;
+    color: black;
+    font-size: 5rem;
+  }
+  .imp {
+    color: var(--color);
+  }
+
+  .div{ 
+    align-items: flex-start;
+    position: absolute;
+    display: flex;
+    flex-direction: column; 
+    opacity: 0;
+  }
+
+
+
+  .animation{
+     animation: upToDn 0.7s linear forwards;
+  }
+  .previous{
+    animation: toDn 0.3s linear forwards;
+  }
+
+  
+@keyframes upToDn {
+      50% {transform: translateY(-30px); opacity: 0}
+    100% {transform: translateY(0px); opacity: 1}
+  }
+  @keyframes toDn{
+    0% {opacity: 1; transform: translateY(px)}
+    100% { opacity: 0; transform: translateY(30px)}
+  }
+  
+.dots-and-btn{    
+    z-index: 9999;
+    padding-top: var(--HalfMrg);
+}
+
+  .index {
+    display: flex;
+    width: 80px;
+    justify-content: space-between;
+    margin: 0 auto;  
+     
+    
+  }
+  .indexPoint {
+    width: 16px;
+    height: 16px;
+    border-radius: 8px;
+    background: var(--color);
+    transition: all 0.3s;
+    border: 2px solid #fc9625;
+  }
+
+  .btn{
+    margin: 0 auto;  
+    margin-top: var(--mrg);      
+    font-size: 20px;
+    border-radius: 30px;
+    width: 230px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    color: white;
+    background: linear-gradient(266.2deg, #FC821A 3.32%, #FCAC32 95.02%);
+  }
+
+
+  @media only screen and (max-width: 600px){
+
+    .Text-Index{      
+      width: calc( 100vw - 60px );
+      margin-right: var(--mrg);
+      flex-direction: column;    
+      justify-content: flex-end;
+      padding-bottom: var(--mrg1);
+     
+  }  
+
+
+  .answer{
+    font-size: 3.5rem;
+    
+  }
+
+  }
+
+
