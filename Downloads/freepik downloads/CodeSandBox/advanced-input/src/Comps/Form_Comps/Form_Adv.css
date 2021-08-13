@@ -1,0 +1,28 @@
+.probInput {
+    display: flex;
+    padding: 10px;
+    background: #fff;
+    box-shadow: 4px 4px 20px #0002;
+    border-radius: 10px;
+    gap: 10px;
+    flex-wrap: wrap;
+  }
+  .probContainer {
+    display: flex;
+    background: #ddd;
+    gap: 10px;
+    align-items: center;
+    padding: 10px;
+    border-radius: 10px;
+  }
+  .probContainer p {
+    width: 100px;
+  }
+  .probContainer input {
+    width: 45px;
+    height: 30px;
+    border: none;
+    border-radius: 5px;
+    padding-left: 5px;
+  }
+  

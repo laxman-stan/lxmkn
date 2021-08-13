@@ -1,0 +1,33 @@
+.flex{
+    display: flex;
+}
+.shadow{
+    box-shadow: 4px 4px 20px #0002;
+}
+.input_normal p{
+    width: 100%;
+    color: #00c;
+    font-weight: bold;
+    margin-left: 5px;
+}
+.input_normal{
+    background: #fff;
+    align-items: flex-end;
+    flex-wrap: wrap;
+    padding: 10px;
+    border-radius: 10px;
+    margin-block: 20px;
+    gap: 10px;       
+}
+.input_normal input{
+    width: 300px;
+    height: 30px;
+    border: 1px solid #0008;
+    border-radius: 5px;
+    padding-left: 5px;
+    outline: none;    
+    transition: border-color .3s;
+}
+.input_normal input:focus{
+    border: 1px solid #000;
+}

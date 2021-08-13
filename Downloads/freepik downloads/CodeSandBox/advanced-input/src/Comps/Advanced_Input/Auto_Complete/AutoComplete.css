@@ -1,0 +1,20 @@
+.AC_Container {
+  display: flex;
+  flex-direction: column;
+  padding-block: 7px;
+  background: #fff;
+  position: absolute;
+  top: 0; left: 0;
+  border-radius: 10px;
+  width: 100%;
+  max-height: 300px;
+  overflow: auto;
+  box-shadow: 4px 4px 20px #0002;
+}
+.AC_Container p {
+  padding-inline: 10px;
+  padding-block: 7px;
+}
+.AC_Container p:hover {
+  background: #eee;
+}

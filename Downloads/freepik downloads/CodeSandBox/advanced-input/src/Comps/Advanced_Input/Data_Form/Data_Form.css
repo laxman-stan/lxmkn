@@ -1,0 +1,19 @@
+.dataFormCont {
+  display: flex;
+  padding: 10px;
+  background: white;
+  border-radius: 10px;
+  flex-direction: column;
+  gap: 10px;
+  margin-top: 20px;
+  box-shadow: 4px 4px 20px #0002;
+}
+
+.flex {
+  display: flex;
+}
+.dataFormCont div {
+  /* background: cadetblue; */
+  align-items: center;
+  height: 20px;
+}
